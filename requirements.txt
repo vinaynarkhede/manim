@@ -1,0 +1,26 @@
+# The Index Paradox - Animation Requirements
+# Manim and dependencies for creating the animation
+
+# Manim Community Edition
+manim>=0.18.0
+
+# Additional dependencies (automatically installed with manim)
+# Listed here for clarity
+numpy>=1.20.0
+Pillow>=9.1.0
+scipy>=1.7.0
+pydub>=0.25.0
+
+# Development tools (optional)
+pytest>=7.0.0  # For testing
+black>=22.0.0  # For code formatting
+
+# Note: Manim requires system dependencies:
+# - FFmpeg (for video rendering)
+# - LaTeX (for mathematical typesetting)
+# - Pango/Cairo (for text rendering)
+#
+# Installation instructions:
+# macOS: brew install py3cairo ffmpeg pango pkg-config
+# Ubuntu/Debian: sudo apt-get install build-essential python3-dev libcairo2-dev libpango1.0-dev ffmpeg
+# Windows: See https://docs.manim.community/en/stable/installation.html
